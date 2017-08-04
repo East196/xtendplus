@@ -4,7 +4,7 @@
 
 	<groupId>com.github.east196</groupId>
 	<artifactId>xtendplus</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>xtendplus</name>
