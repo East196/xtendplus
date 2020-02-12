@@ -30,15 +30,15 @@ class Pythonic {
 		Boon.fromJsonArray(obj, klass)
 	}
 
-	def static _date(Object obj) {
+	def static o2date(Object obj) {
 		Conversions.toDate(obj)
 	}
 
-	def static _str(Object obj) {
+	def static o2str(Object obj) {
 		Conversions.toString(obj)
 	}
 
-	def static _int(Object obj) {
+	def static o2int(Object obj) {
 		Conversions.toInt(obj)
 	}
 
