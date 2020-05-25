@@ -17,14 +17,14 @@
 	</properties>
 
 	<dependencies>
-	
-			<dependency>
+
+		<dependency>
 			<groupId>org.jeecgframework</groupId>
 			<artifactId>jeasypoi-web</artifactId>
 			<version>2.1.9</version>
 		</dependency>
-	
-			<dependency>
+
+		<dependency>
 			<groupId>com.typesafe.akka</groupId>
 			<artifactId>akka-actor_2.11</artifactId>
 			<version>2.3.4</version>
@@ -67,6 +67,17 @@
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
 			<version>${mybatis-plus.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sourceforge.tess4j</groupId>
+			<artifactId>tess4j</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox-examples</artifactId>
+			<version>1.8.8</version>
 		</dependency>
 	</dependencies>
 

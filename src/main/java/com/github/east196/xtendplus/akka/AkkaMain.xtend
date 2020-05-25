@@ -10,7 +10,7 @@ import com.google.common.base.Stopwatch
 import java.util.concurrent.TimeUnit
 
 //官网示例
-public class Greeting implements Serializable {
+class Greeting implements Serializable {
 	public final String who
 
 	new(String who) {
@@ -18,7 +18,7 @@ public class Greeting implements Serializable {
 	}
 }
 
-public class GreetingActor extends UntypedActor {
+class GreetingActor extends UntypedActor {
 	val log = Logging.getLogger(getContext().system(), this)
 
 	override onReceive(Object message) throws Exception {
